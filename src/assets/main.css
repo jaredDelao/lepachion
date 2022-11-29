@@ -1,0 +1,30 @@
+@import "./base.css";
+
+#app {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.custom-bullet-menu {
+  background: transparent !important;
+  border: 1px solid white;
+  opacity: 1;
+  width: 13px;
+  height: 13px;
+  margin: 0 10px !important;
+}
+.custom-bullet-menu-active {
+  background-color: white !important;
+}
+.custom-bullet-main {
+  background: transparent !important;
+  border: 1px solid black;
+  opacity: 1;
+  width: 10px;
+  height: 10px;
+  margin: 10px 0 !important;
+}
+.custom-bullet-main-active {
+  background-color: black !important;
+}
