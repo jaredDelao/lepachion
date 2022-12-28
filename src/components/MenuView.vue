@@ -3,6 +3,10 @@
     <swiper
       :modules="modules"
       :slides-per-view="1"
+      :autoplay="{
+        delay: 2500,
+        disableOnInteraction: false,
+      }"
       :pagination="{
         clickable: true,
         bulletClass: 'swiper-pagination-bullet custom-bullet-menu',
@@ -85,7 +89,7 @@
 </template>
 
 <script>
-import { Pagination, A11y } from "swiper";
+import { Pagination, A11y, Autoplay } from "swiper";
 // Import Swiper Vue.js components
 import { Swiper, SwiperSlide } from "swiper/vue";
 // Import Swiper styles
@@ -93,13 +97,11 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
+import "swiper/css/autoplay";
 
 // images
 import imgMenu1 from "../assets/images/slider/menu1.jpg";
 import imgMenu1Res from "../assets/images/slider/menu1.jpg";
-
-import imgMenu2 from "../assets/images/slider/menu2.jpg";
-import imgMenu2Res from "../assets/images/slider/menu2.jpg";
 
 import imgMenu3 from "../assets/images/slider/menu3.jpg";
 import imgMenu3Res from "../assets/images/slider/menu3.jpg";
@@ -121,73 +123,63 @@ export default {
     return {
       imgCarrusel: [
         {
-          name: "Menu1",
+          name: "APPETIZERS",
           path: imgMenu1,
           pathResponsive: imgMenu1Res,
           percents: [
             { name: "Natural", value: "100%" },
             { name: "Gourmet", value: "100%" },
-            { name: "Product", value: "100%" },
+            { name: "Delicious", value: "100%" },
           ],
         },
         {
-          name: "Menu2",
-          path: imgMenu2,
-          pathResponsive: imgMenu2Res,
-          percents: [
-            { name: "Natural", value: "100%" },
-            { name: "Gourmet", value: "100%" },
-            { name: "Product", value: "100%" },
-          ],
-        },
-        {
-          name: "Menu3",
+          name: "BURGERS",
           path: imgMenu3,
           pathResponsive: imgMenu3Res,
           percents: [
             { name: "Natural", value: "100%" },
             { name: "Gourmet", value: "100%" },
-            { name: "Product", value: "100%" },
+            { name: "Delicious", value: "100%" },
           ],
         },
         {
-          name: "Menu4",
+          name: "SALAD",
           path: imgMenu4,
           pathResponsive: imgMenu4Res,
           percents: [
             { name: "Natural", value: "100%" },
             { name: "Gourmet", value: "100%" },
-            { name: "Product", value: "100%" },
+            { name: "Delicious", value: "100%" },
           ],
         },
         {
-          name: "Menu5",
+          name: "PASTAS",
           path: imgMenu5,
           pathResponsive: imgMenu5Res,
           percents: [
             { name: "Natural", value: "100%" },
             { name: "Gourmet", value: "100%" },
-            { name: "Product", value: "100%" },
+            { name: "Delicious", value: "100%" },
           ],
         },
         {
-          name: "Menu6",
+          name: "DESSERTS",
           path: imgMenu6,
           pathResponsive: imgMenu6Res,
           percents: [
             { name: "Natural", value: "100%" },
             { name: "Gourmet", value: "100%" },
-            { name: "Product", value: "100%" },
+            { name: "Delicious", value: "100%" },
           ],
         },
         {
-          name: "Menu7",
+          name: "BEVERAGES",
           path: imgMenu7,
           pathResponsive: imgMenu7Res,
           percents: [
             { name: "Natural", value: "100%" },
             { name: "Gourmet", value: "100%" },
-            { name: "Product", value: "100%" },
+            { name: "Delicious", value: "100%" },
           ],
         },
       ],
@@ -199,7 +191,7 @@ export default {
   },
   setup() {
     return {
-      modules: [Pagination, A11y],
+      modules: [Pagination, A11y, Autoplay],
     };
   },
 };

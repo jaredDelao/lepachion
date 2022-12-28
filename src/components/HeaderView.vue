@@ -1,9 +1,14 @@
 <template>
   <div class="header">
     <img
-      class="background"
+      class="background lg"
       src="../assets/images/header.jpg"
-      alt="Itacalli fondo"
+      alt="Itacalli"
+    />
+    <img
+      class="background xs"
+      src="../assets/images/header-xs.jpg"
+      alt="Itacalli"
     />
     <!-- <img
       class="background no-responsive"
@@ -30,11 +35,24 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
+.xs {
+  display: none;
+  @media screen and (max-width: 700px) {
+    display: block;
+  }
+}
+.lg {
+  display: block;
+  @media screen and (max-width: 700px) {
+    display: none;
+  }
+}
 .header {
   position: relative;
   width: 100%;
-  height: auto;
-  overflow: hidden;
+  // height: 100%;
+  height: 100vh;
+  background: #000;
   // .break-responsive {
   //   display: none;
   //   @media screen and (max-width: 600px) {
@@ -61,7 +79,7 @@ export default {
   .background {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
   }
 }
 </style>

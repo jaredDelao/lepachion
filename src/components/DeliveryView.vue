@@ -25,6 +25,11 @@
           href="https://www.ubereats.com/store/itacali-deliciously-mexican/QyKPNrDvV2eQPgrk3Dck8w?diningMode=DELIVERY"
           ><img src="../assets/UberEats.png" alt="Uber Eats"
         /></a>
+        <a
+          target="_blank"
+          href="https://www.yelp.com/biz/le-pachion-international-fusion-oakland"
+          ><img src="../assets/yelp.png" alt="Yelp"
+        /></a>
       </div>
     </div>
     <div class="delivery__btn-order">
@@ -35,21 +40,21 @@
   <div class="delivery__contact">
     <div class="delivery__contact-container">
       <div class="text">
-        <p class="title-contact">CONTACT <br />& LOCATION</p>
+        <p class="title-contact">CONTACT <br class="hide-xs" />& LOCATION</p>
         <div class="items">
           <div class="item">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              fill="currentColor"
               class="ionicon"
+              fill="currentColor"
               viewBox="0 0 512 512"
             >
-              <title>Call</title>
+              <title>Mail</title>
               <path
-                d="M478.94 370.14c-5.22-5.56-23.65-22-57.53-43.75-34.13-21.94-59.3-35.62-66.52-38.81a3.83 3.83 0 00-3.92.49c-11.63 9.07-31.21 25.73-32.26 26.63-6.78 5.81-6.78 5.81-12.33 4-9.76-3.2-40.08-19.3-66.5-45.78s-43.35-57.55-46.55-67.3c-1.83-5.56-1.83-5.56 4-12.34.9-1.05 17.57-20.63 26.64-32.25a3.83 3.83 0 00.49-3.92c-3.19-7.23-16.87-32.39-38.81-66.52-21.78-33.87-38.2-52.3-43.76-57.52a3.9 3.9 0 00-3.89-.87 322.35 322.35 0 00-56 25.45A338 338 0 0033.35 92a3.83 3.83 0 00-1.26 3.74c2.09 9.74 12.08 50.4 43.08 106.72 31.63 57.48 53.55 86.93 100 133.22S252 405.21 309.54 436.84c56.32 31 97 41 106.72 43.07a3.86 3.86 0 003.75-1.26A337.73 337.73 0 00454.35 430a322.7 322.7 0 0025.45-56 3.9 3.9 0 00-.86-3.86z"
+                d="M424 80H88a56.06 56.06 0 00-56 56v240a56.06 56.06 0 0056 56h336a56.06 56.06 0 0056-56V136a56.06 56.06 0 00-56-56zm-14.18 92.63l-144 112a16 16 0 01-19.64 0l-144-112a16 16 0 1119.64-25.26L256 251.73l134.18-104.36a16 16 0 0119.64 25.26z"
               />
             </svg>
-            <span>&nbsp; XX-XX-XX-XX</span>
+            <span>&nbsp; info@lepachion.com</span>
           </div>
           <div class="item">
             <svg
@@ -63,7 +68,9 @@
                 d="M256 32C167.67 32 96 96.51 96 176c0 128 160 304 160 304s160-176 160-304c0-79.49-71.67-144-160-144zm0 224a64 64 0 1164-64 64.07 64.07 0 01-64 64z"
               />
             </svg>
-            <span>&nbsp; XX-XX-XX-XX</span>
+            <span
+              >&nbsp; 2353 E 12th St, Oakland, CA 94601, United States.</span
+            >
           </div>
         </div>
       </div>
@@ -86,42 +93,27 @@
       <div class="icon">
         <svg
           xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 50 50"
           fill="currentColor"
-          class="ionicon"
-          viewBox="0 0 512 512"
         >
-          <title>Logo Youtube</title>
           <path
-            d="M508.64 148.79c0-45-33.1-81.2-74-81.2C379.24 65 322.74 64 265 64h-18c-57.6 0-114.2 1-169.6 3.6C36.6 67.6 3.5 104 3.5 149 1 184.59-.06 220.19 0 255.79q-.15 53.4 3.4 106.9c0 45 33.1 81.5 73.9 81.5 58.2 2.7 117.9 3.9 178.6 3.8q91.2.3 178.6-3.8c40.9 0 74-36.5 74-81.5 2.4-35.7 3.5-71.3 3.4-107q.34-53.4-3.26-106.9zM207 353.89v-196.5l145 98.2z"
+            d="M32,11h5c0.552,0,1-0.448,1-1V3.263c0-0.524-0.403-0.96-0.925-0.997C35.484,2.153,32.376,2,30.141,2C24,2,20,5.68,20,12.368 V19h-7c-0.552,0-1,0.448-1,1v7c0,0.552,0.448,1,1,1h7v19c0,0.552,0.448,1,1,1h7c0.552,0,1-0.448,1-1V28h7.222 c0.51,0,0.938-0.383,0.994-0.89l0.778-7C38.06,19.518,37.596,19,37,19h-8v-5C29,12.343,30.343,11,32,11z"
           />
         </svg>
       </div>
       <div class="icon">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          fill="currentColor"
-          stroke="currentColor"
           class="ionicon"
           viewBox="0 0 512 512"
-        >
-          <title>Logo Twitter</title>
-          <path
-            d="M496 109.5a201.8 201.8 0 01-56.55 15.3 97.51 97.51 0 0043.33-53.6 197.74 197.74 0 01-62.56 23.5A99.14 99.14 0 00348.31 64c-54.42 0-98.46 43.4-98.46 96.9a93.21 93.21 0 002.54 22.1 280.7 280.7 0 01-203-101.3A95.69 95.69 0 0036 130.4c0 33.6 17.53 63.3 44 80.7A97.5 97.5 0 0135.22 199v1.2c0 47 34 86.1 79 95a100.76 100.76 0 01-25.94 3.4 94.38 94.38 0 01-18.51-1.8c12.51 38.5 48.92 66.5 92.05 67.3A199.59 199.59 0 0139.5 405.6a203 203 0 01-23.5-1.4A278.68 278.68 0 00166.74 448c181.36 0 280.44-147.7 280.44-275.8 0-4.2-.11-8.4-.31-12.5A198.48 198.48 0 00496 109.5z"
-          />
-        </svg>
-      </div>
-      <div class="icon">
-        <svg
           fill="currentColor"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
         >
+          <title>Logo Instagram</title>
           <path
-            fill="currentColor"
-            d="M16,3H8C5.243,3,3,5.243,3,8v8c0,2.757,2.243,5,5,5h8c2.757,0,5-2.243,5-5V8C21,5.243,18.757,3,16,3z M19,16c0,1.654-1.346,3-3,3H8c-1.654,0-3-1.346-3-3V8c0-1.654,1.346-3,3-3h8c1.654,0,3,1.346,3,3V16z"
+            d="M349.33 69.33a93.62 93.62 0 0193.34 93.34v186.66a93.62 93.62 0 01-93.34 93.34H162.67a93.62 93.62 0 01-93.34-93.34V162.67a93.62 93.62 0 0193.34-93.34h186.66m0-37.33H162.67C90.8 32 32 90.8 32 162.67v186.66C32 421.2 90.8 480 162.67 480h186.66C421.2 480 480 421.2 480 349.33V162.67C480 90.8 421.2 32 349.33 32z"
           />
           <path
-            d="M12 7c-2.757 0-5 2.243-5 5s2.243 5 5 5 5-2.243 5-5S14.757 7 12 7zM12 15c-1.654 0-3-1.346-3-3s1.346-3 3-3 3 1.346 3 3S13.654 15 12 15zM17 6A1 1 0 1 0 17 8 1 1 0 1 0 17 6z"
+            d="M377.33 162.67a28 28 0 1128-28 27.94 27.94 0 01-28 28zM256 181.33A74.67 74.67 0 11181.33 256 74.75 74.75 0 01256 181.33m0-37.33a112 112 0 10112 112 112 112 0 00-112-112z"
           />
         </svg>
       </div>
@@ -149,7 +141,7 @@ export default {
       display: grid;
       justify-content: center;
       align-items: center;
-      grid-template-columns: repeat(3, 200px);
+      grid-template-columns: repeat(auto-fit, 200px);
       @media screen and (max-width: 735px) {
         grid-template-columns: repeat(3, 170px);
       }
@@ -184,12 +176,13 @@ export default {
       width: 100%;
       margin: auto;
       display: grid;
+      gap: 10px;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr;
 
       @media screen and (max-width: 765px) {
         grid-template-columns: 1fr;
-        grid-template-rows: 100px 1fr;
+        grid-template-rows: auto 1fr;
       }
 
       .text {
@@ -198,11 +191,6 @@ export default {
         font-family: "Balboa", Arial;
         display: flex;
         flex-direction: column;
-        @media screen and (max-width: 765px) {
-          flex-direction: row;
-          justify-content: space-between;
-          align-items: baseline;
-        }
         .title-contact {
           line-height: 50px;
           font-size: 3em;
@@ -216,7 +204,7 @@ export default {
         .items {
           .item {
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             margin: 10px auto;
             svg {
               width: 25px;
@@ -292,6 +280,11 @@ export default {
         background: #000;
       }
     }
+  }
+}
+@media screen and (max-width: 550px) {
+  .hide-xs {
+    display: none;
   }
 }
 </style>
