@@ -80,6 +80,9 @@ export default {
     width: 100%;
     height: 100%;
     object-fit: contain;
+    @media screen and (max-width: 500px) {
+      object-fit: cover;
+    }
   }
 }
 </style>

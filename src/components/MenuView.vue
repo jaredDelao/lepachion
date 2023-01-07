@@ -101,22 +101,12 @@ import "swiper/css/autoplay";
 
 // images
 import imgMenu1 from "../assets/images/slider/menu1.jpg";
-import imgMenu1Res from "../assets/images/slider/menu1.jpg";
-
 import imgMenu3 from "../assets/images/slider/menu3.jpg";
-import imgMenu3Res from "../assets/images/slider/menu3.jpg";
-
 import imgMenu4 from "../assets/images/slider/menu4.jpg";
-import imgMenu4Res from "../assets/images/slider/menu4.jpg";
-
 import imgMenu5 from "../assets/images/slider/menu5.jpg";
-import imgMenu5Res from "../assets/images/slider/menu5.jpg";
-
 import imgMenu6 from "../assets/images/slider/menu6.jpg";
-import imgMenu6Res from "../assets/images/slider/menu6.jpg";
-
 import imgMenu7 from "../assets/images/slider/menu7.jpg";
-import imgMenu7Res from "../assets/images/slider/menu7.jpg";
+
 export default {
   name: "MenuView",
   data: () => {
@@ -125,17 +115,7 @@ export default {
         {
           name: "APPETIZERS",
           path: imgMenu1,
-          pathResponsive: imgMenu1Res,
-          percents: [
-            { name: "Natural", value: "100%" },
-            { name: "Gourmet", value: "100%" },
-            { name: "Delicious", value: "100%" },
-          ],
-        },
-        {
-          name: "BURGERS",
-          path: imgMenu3,
-          pathResponsive: imgMenu3Res,
+          pathResponsive: imgMenu1,
           percents: [
             { name: "Natural", value: "100%" },
             { name: "Gourmet", value: "100%" },
@@ -145,7 +125,7 @@ export default {
         {
           name: "SALAD",
           path: imgMenu4,
-          pathResponsive: imgMenu4Res,
+          pathResponsive: imgMenu4,
           percents: [
             { name: "Natural", value: "100%" },
             { name: "Gourmet", value: "100%" },
@@ -153,9 +133,20 @@ export default {
           ],
         },
         {
+          name: "BURGERS",
+          path: imgMenu3,
+          pathResponsive: imgMenu3,
+          percents: [
+            { name: "Natural", value: "100%" },
+            { name: "Gourmet", value: "100%" },
+            { name: "Delicious", value: "100%" },
+          ],
+        },
+
+        {
           name: "PASTAS",
           path: imgMenu5,
-          pathResponsive: imgMenu5Res,
+          pathResponsive: imgMenu5,
           percents: [
             { name: "Natural", value: "100%" },
             { name: "Gourmet", value: "100%" },
@@ -165,7 +156,7 @@ export default {
         {
           name: "DESSERTS",
           path: imgMenu6,
-          pathResponsive: imgMenu6Res,
+          pathResponsive: imgMenu6,
           percents: [
             { name: "Natural", value: "100%" },
             { name: "Gourmet", value: "100%" },
@@ -175,7 +166,7 @@ export default {
         {
           name: "BEVERAGES",
           path: imgMenu7,
-          pathResponsive: imgMenu7Res,
+          pathResponsive: imgMenu7,
           percents: [
             { name: "Natural", value: "100%" },
             { name: "Gourmet", value: "100%" },

@@ -1,7 +1,7 @@
 <template>
   <div class="philosophy">
     <div class="container">
-      <img src="../assets/images/philosphy-top.jpg" class="img-top" />
+      <img src="../assets/images/especias1.jpg" class="img-top" />
       <div class="text">
         <h2>Our Seasoning</h2>
         <h4>
@@ -11,7 +11,7 @@
           flavors that go back to their roots. Dare and order.
         </h4>
       </div>
-      <img src="../assets/images/philosophy-bot.jpg" class="img-bot" />
+      <img src="../assets/images/especias2.jpg" class="img-bot" />
     </div>
   </div>
 </template>
@@ -27,7 +27,7 @@ export default {
   width: 95%;
   height: 100%;
   margin: auto;
-  padding: 10% 0;
+  padding: 0;
   background-color: #ffffff;
 
   .container {
