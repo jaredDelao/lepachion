@@ -2,7 +2,7 @@
   <div class="header">
     <img
       class="background lg"
-      src="../assets/images/header.jpg"
+      src="../assets/images/header.png"
       alt="Itacalli"
     />
     <img
